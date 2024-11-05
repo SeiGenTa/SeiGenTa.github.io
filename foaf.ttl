@@ -1,4 +1,4 @@
-@base <http://users.dcc.uchile.cl/~amartinez/foaf.ttl> .
+@base <https://seigenta.github.io/foaf.ttl> .
 
 @prefix am: <http://users.dcc.uchile.cl/~amartinez/foaf.ttl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
@@ -23,7 +23,7 @@
    foaf:familyName "Martínez González" ;
    foaf:age 24 ;
    foaf:homepage <https://github.com/SeiGenTa> ;
-   foaf:knows <http://users.dcc.uchile.cl/~adconcha/foaf.ttl#ab>, <https://raw.githubusercontent.com/JFeliu01/FOAFJfeliu/main/foaf.ttl#>, <http://users.dcc.uchile.cl/~bcastro/foaf.ttl#bc>,
+   foaf:knows <https://users.dcc.uchile.cl/~jfeliu/foaf.ttl>, <https://raw.githubusercontent.com/JFeliu01/FOAFJfeliu/main/foaf.ttl#>, <https://users.dcc.uchile.cl/~sachavez/foaf.ttl>,
 <http://users.dcc.uchile.cl/~ahogan/foaf.ttl#> ; # Agrega IRIs de tus conocidos en la clase
    foaf:interest dbr:Web_development, dbr:Artificial_Intelligence, dbr:Machine_Learning ;
    social:likesMovie dbr:Inception, dbr:Arrival;
