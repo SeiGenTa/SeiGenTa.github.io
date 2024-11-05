@@ -1,0 +1,32 @@
+@base <http://users.dcc.uchile.cl/~amartinez/foaf.ttl> .
+
+@prefix am: <http://users.dcc.uchile.cl/~amartinez/foaf.ttl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix social: <http://users.dcc.uchile.cl/~ahogan/social.ttl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dbr: <http://dbpedia.org/resource/> .
+
+<> a foaf:Document ;
+   dc:date "2024-11-04"^^xsd:date ;
+   dc:title "Perfil FOAF de Álvaro Martínez"@es ;
+   foaf:primaryTopic <#am> ;
+   dc:creator <#am> .
+
+<#am> a foaf:Person ;
+   rdfs:label "Álvaro Martínez González" ;
+   rdfs:comment "Estudiante de Ingeniería Civil en Computación, Universidad de Chile"@es ;
+   foaf:name "Álvaro Martínez González" ;
+   foaf:givenName "Álvaro" ;
+   foaf:familyName "Martínez González" ;
+   foaf:age 24 ;
+   foaf:homepage <https://github.com/SeiGenTa> ;
+   foaf:knows <http://users.dcc.uchile.cl/~adconcha/foaf.ttl#ab>, <https://raw.githubusercontent.com/JFeliu01/FOAFJfeliu/main/foaf.ttl#>, <http://users.dcc.uchile.cl/~bcastro/foaf.ttl#bc>,
+<http://users.dcc.uchile.cl/~ahogan/foaf.ttl#> ; # Agrega IRIs de tus conocidos en la clase
+   foaf:interest dbr:Web_development, dbr:Artificial_Intelligence, dbr:Machine_Learning ;
+   social:likesMovie dbr:Inception, dbr:Arrival;
+   social:hasSpiritAnimal dbr:Suricata ;
+   social:hasFavouritePlatonicSolid dbr:Dodecahedron ;
+   foaf:myersBriggs "INTJ" .
